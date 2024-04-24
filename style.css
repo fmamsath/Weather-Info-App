@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('6.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    overflow: auto;
+    min-height: 100vh;
+    position: relative;
+}
+
+h1 {
+    color: #59dc0d;
+    font-family: 'Times New Roman', serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    text-align: center;
+    margin: 25px auto;
+    animation: fadeInUp 1s ease-in-out;
+    overflow: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#locationInput {
+    width: 100%;
+    padding: 30px;
+    border: none;
+    border-radius: 25px; 
+    margin-bottom: 20px;
+    font-size: 16px;
+    background: linear-gradient(135deg, #99a5ae, #a6eb57); 
+    color: #fff;
+    outline: none;
+    transition: background 0.3s;
+}
+
+#locationInput:focus {
+    background: linear-gradient(135deg, #62d88b, #3d6046);
+}
+
+.btn-secondary {
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #79c18b, #579166);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 30px; 
+    transition: background 0.3s, transform 0.3s;
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(135deg, #6fbbba, #618e95);
+    transform: scale(1.05);
+}
+
+#weatherBox {
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.7));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#dateAndTime {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #9a82fb, #412bc0);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(135deg, #92e62c, #67ff15);
+}
+
+#weatherContent {
+    line-height: 1.6;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#windyMap {
+    margin-top: 20px;
+    height: 250px;
+    border-radius: 10px;
+}

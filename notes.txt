@@ -1,0 +1,37 @@
+gmail = amsathnus@gmail.com
+
+user name = mamsath
+
+password = Am@19971001
+
+phone no = 0721328608
+
+api key = 7b9910dabf432273cbdc1ed03e8ca077-0f95f8c6-b849-404b-a2a9-95ce8e7db567
+
+url api of infobip = 8gzm21.api.infobip.com
+
+windy api = CzP7bilK9ZQfYQPDHECzbJJVzSY6Q9tN
+
+windy url = https://embed.windy.com/embed2.html?lat=${latitude}&lon=${longitude}&detailLat=${latitude}&detailLon=${longitude}&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1
+
+
+weather api key = 6466978706d7f17d89f4063e78b21c57
+
+weather location = https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric
+
+
+000webhost
+
+domain name = https://weatherinfoandalert.000webhostapp.com/
+
+password = Am@19971001
+
+FTP Details
+
+Host name = files.000webhost.com
+
+port = 21
+
+username = weatherinfoandalert
+
+password = Am@19971001
